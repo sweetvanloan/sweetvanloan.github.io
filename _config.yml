@@ -1,0 +1,20 @@
+# Site settings
+author: Sweet Van Loan
+title: 
+header-img: img/home-bg.png
+email: sweet@sweetvanloan.com
+copyright_name: Sweet Van Loan
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: SweetVanLoan
+github_username:  sweetvanloan
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
